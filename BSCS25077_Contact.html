@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width
+    initial-scale=1.0">
+    <title>contact Page</title>
+    <link rel="stylesheet" href="/BSCS25077_style.css">
+    </head>
+<body >
+    <section>
+    <header>
+    <nav class="nav">
+        <ul>
+      <li><a class="active"
+        href="BSCS25077_Home.html"><button>Home</button></a></li>
+       <li><a href="BSCS25077_Product.html"> <button>Products</button></a></li>
+        <li><a href="BSCS25077_Contact.html"><button>Contact</button></a></li>
+        </ul>
+    </nav>
+    </header>
+    </section>
+    <br>
+    <br>
+<div class="Contact-box">
+    <h1>Contact Information:</h1>
+    <br>
+    <br>
+    <p><strong>Cell Number:</strong>03244062590</p>
+    <p><strong>Email:</strong>hassan123@gmail.com</p>
+    <p><strong>Location:</strong>Lahore</p>
+    <div class="social-icons">
+        <a href="http://facebook.com" target="blank">
+        <img src="Facebook logo.jpg" alt="Facebook">
+        </a>
+        <a href="http://instagram.com" target="blank">
+            <img src="Instagram logo.jpg" alt="Instagram">
+        </a>
+        <a href="http://linkedin.com" target="blank">
+            <img src="Linkedin logo.png" alt="Linkedin">
+        </a>
+    </div>
+</div>
+
+<div class="come">
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" placeholder="Write your message..." required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+      <p id="formMessage"></p>
+    </div>
+
+
+    <div class="chat-box">
+      <h2>AI Chat Box</h2>
+      <div class="chat-window" id="chatWindow">
+        <div class="bot-message">Hello! I am your AI assistant. How can I help you?</div>
+      </div>
+      <div class="chat-input">
+        <input type="text" id="userInput" placeholder="Type a message...">
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+  </div>
+<script src="BSCS25077_script.js"></script>
+</body>
+</html>
